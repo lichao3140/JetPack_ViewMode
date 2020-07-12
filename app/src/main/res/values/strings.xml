@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">JetPack_ViewMode</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_message">Calculation Test</string>
+    <string name="title_image_info">Title Image</string>
+    <string name="title_button_message">Enter</string>
+    <string name="high_score_message">High Score:%d</string>
+    <string name="button_0">0</string>
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+    <string name="button_clear">C</string>
+    <string name="button_submit">OK</string>
+    <string name="equal_symbol">=</string>
+    <string name="question_symbol">\?</string>
+    <string name="current_score">Score:%d</string>
+    <string name="input_indicator">You Answer:</string>
+    <string name="lose_image_message">Lose Image</string>
+    <string name="win_image_message">Win Image</string>
+    <string name="lose_message">You Lose!</string>
+    <string name="win_message">You Win!</string>
+    <string name="lose_score_message">You Score:%d</string>
+    <string name="win_score_message">New Record:%d</string>
+    <string name="button_back_to_title">back</string>
+    <string name="answer_correct_message">Correct! Go On!</string>
+</resources>
