@@ -25,12 +25,12 @@ public class MyViewModel extends AndroidViewModel {
         super(application);
         if (!handle.contains(KEY_HIGH_SCORE)) {
             SharedPreferences shp = getApplication().getSharedPreferences(SAVE_SHP_DATA_NAME, Context.MODE_PRIVATE);
+            handle.set(KEY_HIGH_SCORE, shp.getInt(KEY_HIGH_SCORE, 0));
             handle.set(KEY_LEFT_NUMBER, 0);
             handle.set(KEY_RIGHT_NUMBER, 0);
             handle.set(KEY_OPERATOR, "+");
             handle.set(KEY_ANSWER, 0);
             handle.set(KEY_CURRENT_SCORE, 0);
-            handle.set(KEY_HIGH_SCORE, 0);
         }
         this.handle = handle;
     }

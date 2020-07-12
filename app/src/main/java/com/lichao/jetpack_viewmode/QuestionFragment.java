@@ -102,6 +102,9 @@ public class QuestionFragment extends Fragment {
             @SuppressWarnings("ConstantConditions")
             @Override
             public void onClick(View v) {
+                if (builder.length() == 0) {
+                    builder.append("0");
+                }
                 if (Integer.valueOf(builder.toString()).intValue() == myViewModel.getAnswer().getValue()) {
                     // 计算正确
                     myViewModel.answerCorrect();
